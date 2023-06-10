@@ -4,6 +4,8 @@ import Cam from "../../public/images/cam.png"
 import More from "../../public/images/more.png"
 import Add from "../../public/images/add.png"
 import Image from "next/image"
+import Messages from "./Messages"
+import Input from "./Input"
 
 function Chat() {
   return (
@@ -18,6 +20,8 @@ function Chat() {
           </div>
         </div>
       </div>
+      <Messages />
+      <Input />
     </div>
   )
 }
